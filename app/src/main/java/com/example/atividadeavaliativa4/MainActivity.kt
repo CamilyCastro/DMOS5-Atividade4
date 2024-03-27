@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
         edtCidade = findViewById(R.id.edt_city)
         btnSalvar = findViewById(R.id.btn_save)
 
+        }
         fun onClickBtnSave(view: View?) {
             val intent = Intent(this, Screen2::class.java)
 
@@ -47,5 +48,4 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(intent)
         }
-    }
 }
